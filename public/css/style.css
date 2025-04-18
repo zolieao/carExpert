@@ -1,0 +1,79 @@
+main > .container {
+	min-height: 90vh; 
+}
+body>img {
+	width: 100%; 
+	height: 450px; 
+	object-fit: cover; 
+	overflow: hidden; 
+	position: absolute;
+	z-index:-1; filter: 
+	blur(3px);
+	box-shadow: 60px 0px 50px -15px rgba(0,0,0, 0.9), -60px 0px 50px -15px rgba(0,0,0, 0.9);
+}
+body>.bcgImg {
+	height: 230px; 
+}
+
+
+
+@media(max-width: 700px){
+	body>img {
+		width: 100%; 
+		height: 110vh; 
+		object-fit: cover; 
+		overflow: hidden; 
+		position: absolute;
+		z-index:-1; filter: 
+		blur(4px);
+		box-shadow: 60px 0px 50px -15px rgba(0,0,0, 0.9), -60px 0px 50px -15px rgba(0,0,0, 0.9);
+	}
+	body>.bcgImg {
+		display: none;
+	}
+	body {
+		background-color: #293034;
+	}
+	footer {
+		font-size: 0.7rem;
+	}
+	.smallTxt > * {
+		font-size: 0.8em;
+	}
+}
+
+
+.btn {
+	background-color: #3E82A3;
+	color: white;
+	font-size: 0.9em;
+	border: solid #3E82A3;
+}
+.btn:hover {
+	border: solid #3E82A3;
+}
+input::placeholder {
+	color: #7E868E;
+	font-size: 10pt;
+	padding-bottom: 1px;
+}
+
+.blackColor {
+	color: black;
+}
+.ContactInp > input {
+	background-color: #F2F6FA;
+	border: none;
+}
+
+header {
+	color: 	white !important;
+	background-color: white;
+}
+header nav {
+	color: 	white !important;
+}
+footer{
+	color: #7E868E;
+}
+
